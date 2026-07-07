@@ -3,7 +3,7 @@ import { motion, useMotionValue, useSpring } from "framer-motion";
 
 export function CustomCursor() {
   const [isHovered, setIsHovered] = useState(false);
-  const [isVisible, setIsVisible] = useState(false);
+  const [isVisible, setIsVisible] = useState(false); 
 
   // High-performance Spring physics mechanics to handle tracking lag smoothly
   const cursorX = useMotionValue(-100);
