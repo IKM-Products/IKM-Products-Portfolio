@@ -11,6 +11,7 @@ import { Projects } from "@/components/portfolio/Projects";
 import { Contact } from "@/components/portfolio/Contact";
 import { Toaster } from "sonner";
 import { Splash } from "@/components/portfolio/Splash";
+import { CustomCursor } from "@/components/portfolio/CustomCursor";
 
 export const Route = createFileRoute("/")({
   component: Index,
@@ -37,6 +38,9 @@ function Index() {
       <AnimatePresence mode="wait">
         {isLoading && <Splash onComplete={() => setIsLoading(false)} />}
       </AnimatePresence>
+
+      {/* Mount your global custom theme cursor */}
+      <CustomCursor />
 
       <div className="relative min-h-screen overflow-x-clip">
         <Nav />
