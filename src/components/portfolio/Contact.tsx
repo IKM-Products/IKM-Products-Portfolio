@@ -76,7 +76,7 @@ export function Contact() {
               </div>
               <div>
                 <h4 className="font-bold text-foreground mb-1">Location</h4>
-                <p className="text-muted-foreground">Banepa, Kavre</p>
+                <p className="text-muted-foreground">Kavre, Nepal</p>
               </div>
             </div>
 
