@@ -10,7 +10,7 @@ import { Skills } from "@/components/portfolio/Skills";
 import { Projects } from "@/components/portfolio/Projects";
 import { Contact } from "@/components/portfolio/Contact";
 import { Toaster } from "sonner";
-import { Splash } from "@/components/portfolio/splash";
+import { Splash } from "@/components/portfolio/Splash";
 
 export const Route = createFileRoute("/")({
   component: Index,
